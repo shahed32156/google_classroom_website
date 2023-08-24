@@ -1,0 +1,135 @@
+
+<!-- <?php
+include("clock.php");
+include("demo.php");
+?> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom Details</title>
+    
+    <link rel="stylesheet" href="classroomdetails.css">
+    
+  
+    <style> 
+
+
+.announce .im {
+    position: fixed;
+    margin-left: 1%;
+     
+    top: 59.4%; 
+
+}
+
+.classwork {
+background-color: tomato;
+margin-left: 38%;
+margin-top: -33.2%;
+}
+
+.btnslider1 {
+height:30px;
+width:60px;
+margin-left: 15%;
+border-radius:5px;
+
+}
+
+.btnslider1:hover {
+cursor:pointer;
+background: tomato;
+}
+.btnslider2 {
+height:30px;
+width:60px;
+margin-left: 62.4%;
+border-radius:5px;
+
+}
+
+.btnslider2:hover {
+cursor:pointer;
+background: tomato;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+}
+</style>
+</head>
+
+<body>
+       
+      
+    <div class="details">
+        <a href="#" style=" margin-left: 5%; color: white; font-size: 20px; margin-top: -3%;">Mobile Application Development</a> <br>
+        
+        <a href="#" style=" margin-left: 5%; color: white; font-size: 12px;margin-top: 2%;">201-DB</a>
+<br> <br>
+        </div>
+  
+<div class="image">
+        <img class="mySlides" src="class.jpg" alt="">
+        <img class="mySlides" src="class1.jpg" alt="">
+        <img class="mySlides" src="class2.jpg" alt="">
+        <img class="mySlides" src="classroom.jpg" alt="">
+        <img class="mySlides" src="class3.jpeg" alt="">
+
+        <button class="btnslider1" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="btnslider2" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+<div class="due">
+<h4 style="margin-left: 5%;">Upcoming</h4>
+<p style="margin-left: 5%;">Woohoo, no work due in <br> soon!</p>
+<br>
+<a href="#" style="margin-left: 70%; color: tomato;">View all</a> 
+</div>
+
+<div class="announce">
+        
+        <img class="im" src="account.png" alt="" style="border-radius: 50%; height: 6%; width: 3%;">
+       <textarea name="" id="" cols="92" rows="3" placeholder="Announce Something to your class"></textarea>
+
+        </div>
+
+        <div class="classwork">
+
+                <a href="classroomdetails.html">Stream</a>
+                <a href="classwork.html">Classwork</a>
+                <a href="people.html">People</a> 
+                
+                
+                </div>
+
+        
+
+                <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+
+
+
+</html>

@@ -1,1 +1,1 @@
-# google_classroom_website
+# Simple Digital Clock with JavaScript

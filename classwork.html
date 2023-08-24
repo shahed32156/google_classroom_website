@@ -1,0 +1,86 @@
+ <!-- <?php
+include("clock.php");
+include("demo.php");
+
+?>  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="classwork.css">
+    <title>Classwork</title>
+    
+   
+
+</head>
+<body>
+
+  <div class="details">
+
+    <a href="#" class="a1" style="color: white; font-size: 20px;">Mobile Application Development</a><br>
+    <a href="#" class="a1" style="color: white; font-size: 12px;">201-DB</a>
+
+</div>
+
+
+<div class="classwork">
+
+    <a href="classroomdetails.html">Stream</a>
+    <a href="classwork.html">Classwork</a>
+    <a href="people.html">People</a> 
+    
+    
+    </div>
+
+<div class="viewwork">
+
+  <p style="margin-left: 25%; margin-top: 3%;"><a href=""> View your work</a> </p>
+
+  <p  style="margin-left: 65%; margin-top: -2.3%;"><a href="calender.html">Calender</a></p>
+
+</div>
+
+<div class="fileupload">
+
+  <h1 style="border-bottom: 1px solid; margin-right: 25%;padding-bottom: 1.5%;padding-left: 2%;">Presentation Slide</h1>
+  
+  </div>
+
+  <div class="file">
+
+    <p style="margin-right: 25%;padding-bottom: 1.5%;padding-left: 2%;">Presentation Slide <span>Posted 26 April 2023</span>  </p>
+    
+
+    </div>
+
+
+    <div class="fileupload">
+
+      <h1 style="border-bottom: 1px solid; margin-right: 25%;padding-bottom: 1.5%;padding-left: 2%;">Lab Manuals</h1>
+      
+      </div>
+    
+      <div class="file">
+    
+        <p style="margin-right: 25%;padding-bottom: 1.5%;padding-left: 2%;">Lab Manual-01 <span>Posted 30 April 2023</span>  </p>
+        <p style="margin-right: 25%;padding-bottom: 1.5%;padding-left: 2%;">Lab Manual-02 <span>Posted 07 May 2023</span>  </p>
+    
+        </div>
+
+
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementsByClassName("classwork");
+var btns = header.getElementsByClassName("temp");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+</body>
+</html>

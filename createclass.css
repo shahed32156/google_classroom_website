@@ -1,0 +1,65 @@
+body {
+margin: 0;
+padding: 0;
+
+}
+
+.create {
+
+    margin-left: 35%;
+    margin-top: 10%;
+    
+     
+}
+
+ input {
+
+    font-size: 16px;
+    margin-top: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(59, 59, 60);
+    box-shadow: 0 0 10px 0px rgba(174, 174, 176, 0.8);
+    
+}
+
+.btn {
+
+    height: 35px;
+    width: 7%;
+    margin: 8px;
+    margin-top: 20px;
+    background-color: rgb(78, 128, 235);
+    border: 1px solid  rgb(78, 128, 235);
+     color: white;
+     font-family: "Product Sans",Arial,Helvetica,sans-serif;
+     border-radius: 5px;
+     font-size: 15px;
+     cursor: pointer;
+    
+}
+
+.btn:hover {
+
+    background: rgb(105, 146, 236);
+    
+}
+
+a {
+   position: absolute;
+    margin-top: -2.72%;
+    margin-left: 20%;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(78, 128, 235);
+    font-family: "Product Sans",Arial,Helvetica,sans-serif;
+    padding: 10px 14px 9px 14px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+a:hover {
+
+    background: rgb(105, 146, 236);
+}

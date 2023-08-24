@@ -1,0 +1,158 @@
+body {
+    margin:0;
+background: white;   
+}
+
+ul {
+
+margin: 0px;
+padding: 0px;
+list-style: none;
+text-align: center;
+overflow: hidden;
+background-color:  black;
+
+}
+
+li {
+
+float: left;
+}
+
+#list {
+color: orange;
+font-size: 30px;
+padding-right: 20%;
+padding-left: 3%;
+padding-top: 14px;
+font-family:'Times New Roman', Times, serif;
+    
+}
+
+li a {
+display: block;
+font-size: 20px;
+text-decoration: none;
+color: white;
+padding: 20px;
+
+}
+
+li a:hover {
+transition: 0.5s ease;
+background-color: rgba(255, 166, 0, 0.977);
+text-decoration: none;
+}
+img {
+
+    height:20px;
+    width:20px;
+}
+
+i {
+
+    color:white;
+}
+
+h1 {
+    
+    margin-left: 10%;
+}
+
+.top1 {
+
+    margin-top: 8%;
+    font-size: 40px;
+    color: black;
+}
+
+.top2 {
+
+    font-size: 40px;
+    color: black;
+}
+
+.top3 {
+
+    font-size: 42px;
+    
+    color: orange;
+}
+
+#join {
+    margin-left: 10%;
+    border-radius: 8px;
+    font-weight: bolder;
+    height: 33px;
+    width: 8%;
+    background-color: orange;
+
+}
+
+#join:hover {
+
+background-color: rgb(0, 255, 140);
+cursor:pointer;
+transition: .4s ease;
+width: 9%;
+}
+
+.login-box {
+
+    margin-left: 70%;
+    margin-top: -22%;
+    background-color: rgba(0, 0, 0, 0.749);
+    margin-right: 5%;
+    padding-left: 3.5%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    border-radius: 20px;
+    
+    
+}
+
+.design {
+
+    height: 33px;
+    width: 82%;
+    background: transparent;
+    border-bottom: 2px solid rgba(255, 166, 0, 0.977);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 16px;
+
+}
+
+#login {
+
+    margin-left: 22%;
+    border-radius: 8px;
+    font-weight: bolder;
+    height: 33px;
+    width: 40%;
+    background-color: orange;
+}
+
+#login:hover {
+
+    background-color: rgb(0, 255, 140);
+    cursor:pointer;
+    transition: .4s ease;
+    width: 42%;
+    }
+
+#signup {
+
+    color: white;
+    margin-left: 10%;
+
+}
+#s {
+color:skyblue;
+}
+
+
+
+

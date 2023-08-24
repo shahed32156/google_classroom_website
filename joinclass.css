@@ -1,0 +1,121 @@
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+.joinclass-design {
+ margin-top: 2%;
+ border-bottom: 2px solid rgba(206, 199, 199, 0.788);
+}
+
+.joinclass-design a {
+
+font-size: 30px;
+text-decoration: none;
+color:rgb(146, 135, 135);
+
+position: absolute;
+margin-left: 3%;
+}
+
+#joinbtn {
+    position: absolute;
+    margin-left: 85%;
+    background-color:rgb(191, 189, 189);
+    color: white;
+    height: 5.7%;
+    font-size: 16px;
+    width: 6.2%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: -4%;
+    border: none;
+    font-family: "Product Sans",Arial,Helvetica,sans-serif;
+}
+
+#joinbtn:hover {
+
+  background-color: rgb(51, 51, 201);
+}
+
+.switch {
+
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 10px;
+    margin-top: 1.2%;
+    padding-left: 2%;
+    margin-left: 28%;
+    margin-right: 27%;
+    padding-top: 1%;
+    font-family: "Product Sans",Arial,Helvetica,sans-serif;
+      
+}
+h1 {
+
+    font-family: "Product Sans",Arial,Helvetica,sans-serif;
+    
+}
+.name {
+
+    font-family: "Product Sans",Arial,Helvetica,sans-serif;
+    font-weight :550;
+}
+.classcode {
+
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 10px;
+    margin-top: 1.2%;
+    padding-left: 2%;
+    margin-left: 28%;
+    margin-right: 27%;
+    padding-top: 1%;
+    font-family: "Product Sans",Arial,Helvetica,sans-serif;
+      
+}
+.style {
+
+    cursor: pointer;
+}
+
+.style:hover {
+
+    background: rgb(163, 163, 163);
+}
+.style1 {
+
+font-size: 18px; 
+padding-left: 2%;   
+border-radius: 6px;
+border : 1px solid black;
+font-family: "Product Sans",Arial,Helvetica,sans-serif;
+}
+
+.style1:hover {
+
+    border-color: blue;   
+    border-style: solid;
+    
+    }
+
+    .Instruction {
+
+        margin-left: 30%;
+        margin-top: 2%;
+        font-family: "Product Sans",Arial,Helvetica,sans-serif;
+    }
+
+    li {
+
+        font-size: 18px;
+        padding-top: 1%;
+        color: rgb(70, 69, 69);
+        
+    }
+
+
+p {
+    
+    color: rgb(70, 69, 69);
+}
+

@@ -1,0 +1,111 @@
+body {
+
+    margin: 0;
+}
+
+.details {
+
+
+padding-top: 1.3%;
+padding-bottom: 1.5%;
+padding-left: 5%;
+
+background-color: tomato;
+}
+
+.details a {
+
+    text-decoration: none;
+
+}
+
+.details a:hover {
+
+    text-decoration: underline;
+    
+}
+
+.classwork {
+
+    margin-left: 38%;
+    margin-top: -3.001%;
+}
+.classwork a {
+    
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 24px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Product Sans",Arial,Helvetica,sans-serif;
+    position: relative;
+}
+
+
+.classwork a:hover {
+
+    border-bottom: 5px solid rgb(92, 103, 226);
+    transition: 0.1s ease;
+    border-radius: 4px;
+    margin-top: -5%;
+    background-color: rgb(247, 134, 114);  
+}
+
+.headin1g1 {
+
+    margin-left: 25%;
+    margin-top: 6%;
+    border-bottom: 1px solid;
+    padding-left: 1%;
+    margin-right: 21%;
+    padding-bottom: 1.3%;
+}
+
+.para1 {
+    margin-left: 24%;
+
+}
+.para2 {
+
+    margin-left: 73%;
+    margin-top: -3.7%;
+    font-size: 18px;
+}
+
+.chat {
+
+color: tomato;
+font-size: 18px;
+text-decoration: none;
+
+}
+.chat:hover {
+
+    text-decoration: underline;
+}
+
+.parastd {
+
+    margin-left: 25%;
+    
+    margin-top: 6%;
+    border-bottom: 1px dotted;
+    padding-left: 4%;
+    margin-right: 21%;
+    padding-bottom: 1.3%;
+}
+
+.im {
+
+    border-radius: 50%; 
+    height: 30px;
+    margin-left: 26.5%;
+    margin-top: -2.5%;
+    position: absolute;
+}
+
+@media only screen and (min-width: 800px) {
+ 
+}
